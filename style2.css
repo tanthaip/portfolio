@@ -42,7 +42,7 @@ h6 {
     font-size: 18px;
     color:#929292;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 800;
 
 }
 
@@ -60,7 +60,7 @@ p {
 .social-icons {
     display: flex;
     justify-content: space-evenly;
-    padding: 30px 10px 50px 10px;
+    padding: 30px 10px 100px 10px;
 }
 .card {
     display: flex;
@@ -87,8 +87,12 @@ p {
     z-index: 2;
 }
 
-.read-size {
-    padding: 20px;
+.container {
+    padding: 10px;
+}
+
+.intro-section {
+    padding-top: 5em;
 }
 .work-section {
     background-color: #D9F6FF;
