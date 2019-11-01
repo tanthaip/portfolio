@@ -1,0 +1,155 @@
+/* .body {
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+    grid-template-rows: 1vh auto auto;
+    grid-template-areas: 
+    ". intro-section ."
+    ". work-section ."
+    ". more-section ."
+    ;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    color: #5881FE;
+}
+
+h2 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 1.5rem;
+    color: #3b3b3b;
+    letter-spacing: .03rem;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color:#3b3b3b;
+    font-style: italic;
+    font-weight: 300;
+
+}
+
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color:#929292;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color:#3b3b3b;
+}
+
+
+
+
+/* ----- INTRO SECTION ----- */
+.intro-section {
+    padding: 0 20px 0 20px;
+    /* height: 50vh; */
+}
+
+.home-logo-text {
+    padding-top: 2rem;
+}
+
+.intro-title {
+    padding: 50px 0 50px 0;
+}
+
+.social-icons {
+    display: flex;
+    width: 50%;
+    padding: 3rem 0 3rem 0;
+    margin: 0 25% 0 25%;
+    justify-content: space-around;
+
+}
+
+
+
+
+
+
+
+/* ----- WORK SECTION ----- */
+
+.work-section {
+    display: grid;
+    grid-template-rows: 2.3rem .2rem auto auto;
+    grid-template-columns: 1.5rem auto 1.5rem;
+}
+
+.card-container {
+    background-color: #D9F6FF;
+    grid-area: 2 / 1 / 5 / 4;
+}
+.section-title {
+    grid-area: 1 / 2 / 3 / 3;;
+    z-index: 2;
+}
+.card-pair {
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    display: grid;
+
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.card {
+    margin-top: -3rem;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    z-index: 2;
+    box-shadow: 0px 4px 5px grey;
+}
+
+.card-btn {
+    background:#eb5757;
+    font-size:.77778rem;
+    padding:.7rem .9rem;
+    color:#ffffff;
+    /* width: 60%; */
+    /* margin-left: 20%;
+    margin-right: 20%; */
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: .05em;
+    border: 0;
+    box-shadow: 0 0 2px;
+}
+
+.first-card {
+    margin-top: 2rem;
+}
+/* ----- MORE SECTION ----- */
+
+.more-section {
+    display: grid;
+    grid-template-rows: 2.3rem .2rem auto auto;
+    grid-template-columns: 1.5rem auto 1.5rem;
+}
+
+/* .more-card-container {
+    background-color: #D9F6FF;
+    grid-area: 2 / 1 / 5 / -1;
+} */ 
